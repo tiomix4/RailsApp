@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'msgboard', to: 'msgboard#index'
+  post 'msgboard', to: 'msgboard#index'
+  get 'msgboard/index'
+  post 'msgboard/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
